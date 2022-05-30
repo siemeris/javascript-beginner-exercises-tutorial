@@ -2,8 +2,11 @@
 
 function getRandomInt()
 {
-	var randomNumber = Math.random();
+	var randomNumber = Math.floor(Math.random()*10);
+	if (randomNumber == 0){return 1;}
+	else{
 	return randomNumber;
+	}
 }
 
 
